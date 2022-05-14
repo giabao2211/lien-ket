@@ -1,0 +1,20 @@
+#main{
+    background-image: url(/IMAGE/job/bg_pg.png);
+
+}
+#body_content{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 135px;
+}
+#body_content .page_title{
+    color: #E53329;
+    font-size: 60px;
+    font-weight: bold;
+}
+#main_contain{
+    background-color: #ffe9db;
+    width: 60%;
+    margin: 30px 0px;
+    padding: 20px;
+}

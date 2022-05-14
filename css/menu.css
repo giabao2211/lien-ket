@@ -1,0 +1,125 @@
+#main{
+    background-image: url(/IMAGE/menu/menus-bg.jpg);
+
+}
+#body_content{
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 135px;
+    display: flex;
+
+}
+.col-left{
+    width: 18%;
+   margin-left: 3%;
+}
+.col-left .title-menu{
+    color: #E53328;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding-left: 10px;
+}
+#top-menu{
+    background: rgba(255, 255, 255, 0.8);
+   
+}
+#top-menu ul{
+    padding: 0px;
+}
+#top-menu ul li{
+    padding-top: 10px;
+}
+#top-menu a{
+    display: block;
+    padding: 5px 22px 7px 8px;
+    color: #984d17;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#top-menu li a:hover{
+    background-color: #f9ad81;
+    color: #984d17;
+}
+.col-right{
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0px 0px 50px 5%;
+}
+.col-right #main-menu .main-title{
+    margin: 15px 0 5px 0;
+}
+.col-right .content-title{
+    background-image: url(/IMAGE/menu/order.bg-title.png);
+    color: #fff;
+    height: 30px;
+    padding: 13px 0 0 13px ;
+}
+.col-right .content-title h3{
+    /* đặt giản đong (chưa) */
+    font-family: 'Verdana';
+    font-size: 14px;
+}
+.col-right .sub-title{
+    background-color: #fff7f4;
+    padding: 16px;
+    font-size: 13px;
+}
+.col-right .sub-title .sub{
+     border: dashed thin;/* tạo đường bo mỏng , kiểu nét đứt */
+     padding: 10px;
+
+}
+.col-right .content-content{
+    overflow: hidden;
+    display: flex;
+}
+.content-content .product{
+    width: 45%;
+    /*cho thành phần trôi về bên trái*/
+    padding: 5px 100px 15px 25px;
+}
+
+.content-content .product h4{
+    color: #ff0000;
+    font-size: 16px;
+    margin: 5px 0px;
+}
+.content-content .product-image{
+    padding: 10px 0;
+}
+.content-content .product-image img{
+    width: 244px;
+    height: 130px;
+}
+.content-content .product-desc{
+    margin: 5px;
+    color: #777c98;
+    font-size: 13px;
+    font-weight: bold;
+    height: 47px;
+    padding-right: 10px;
+}
+.content-content .price{
+    font-weight: bold;
+    margin: 27px 0 0 0 ;
+    font-size: 12px;
+    color: #ff0000;
+}
+.content-content .price span{
+    padding: 0 10px 0 5px;
+}
+#toTop{
+    background-image: url(../IMAGE/menu/back-to-top.png) ;
+   
+    position: fixed;
+    cursor: pointer;
+   bottom: 45px;
+   right: 40px;
+   z-index: 2;
+   width: 70px;
+   height: 93px;
+}
